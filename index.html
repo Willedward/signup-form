@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Form</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div id = "left">
+        
+        <img src = "images/stupa_unsplash.jpg" class = "image">
+        <div class = "placer">
+            <p class = "writing">THE ODIN PROJECT</p>
+        </div>
+
+    </div>
+    <div id = "right">
+        <div class = "top-right">
+            <p class = "loser">This is not a real online service! you know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started. You know you want to.</p>
+        </div>
+        <div class = "mid-right">
+            <form action = "response.html" method = "POST">
+                <div class = "formbox">
+                    <h2>Lets do this!</h2>
+                <fieldset class = "outer-form">
+                    
+                    
+                    <fieldset class = "firstrow rows">
+                    <div class = "fn">
+                        <label for = "firstname">FIRST NAME</label>
+                        <input type = "text" name = "first_name" id = "firstname" placeholder="First Name" required >
+                    </div>
+                    <div class = "ln">
+                        <label for = "lastname">LAST NAME</label>
+                        <input type = "text" name = "last_name" id = "lastname" placeholder = "Last Name" required>
+                    </div>
+                    </fieldset>
+                    <fieldset class = "rows">
+                    <div class = "email">
+                        <label for = "email">EMAIL</label>
+                        <input type = "email" id = "email" name = "email" placeholder = "Email" required>
+                    </div>
+                    <div class = "phone_no">
+                        <label for ="pn">PHONE NUMBER</label>
+                        <input type = "number" id = "pn" name = "pn" placeholder = "Phone Number" max = "100000000">
+                    </div>
+                    </fieldset>
+                    <fieldset class = "rows">
+                    <div class = "pass">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id = "password" name = "password" placeholder="Password">
+                    </div>
+                    <div class="pass_confirm">
+                        <label for="pass_conf">CONFIRM PASSWORD</label>
+                        <input type="password" id = "pass_conf" name = "pass_conf" placeholder="Confirm Password">
+
+                    </div>
+                    </fieldset>
+                    
+                    
+                </fieldset>
+                </div>
+                <button type  = "submit">Create Account</button>
+            </form>
+            <div class = "bot-mess">
+                <p>Already have an account? <a href = "/README.md" target = "_blank">Login</a></p>
+        </div>
+        </div>
+        
+    </div>
+    <script src = 'javascript.js'></script>
+</body>
+</html>
